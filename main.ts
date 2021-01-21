@@ -4,6 +4,7 @@ while (true) {
         for (let i = 0; i < 5; i++) {
             music.baDing.playUntilDone()
         }
+        light.setAll(light.rgb(255, 255, 255))
     }
     
     music.stopAllSounds()
